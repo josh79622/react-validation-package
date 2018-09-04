@@ -1,0 +1,33 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
+  "rules": {
+    "import/no-extraneous-dependencies": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    // "guard-for-in": "off",
+    "no-param-reassign": "off",
+    "global-require": "off",           // asyn require need
+    "no-shadow": "off",                // use the same name to async load component
+    "class-methods-use-this": "off",   // some react ES6 methods use it  (render() ..)
+    "no-undef": "off",                 // for global 104 category menu variable
+    "no-mixed-operators": "off",
+    "no-unused-vars": "off",
+    "no-underscore-dangle": "off",
+    "no-restricted-syntax": "off",
+    "no-nested-ternary": "off",
+    "no-useless-constructor": "off",
+    "consistent-return": "off",
+    "guard-for-in": "off",
+    "max-len": "off",
+    "semi": ["error", "never"]
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "plugins": [
+    "import",
+    "react"
+  ]
+}
