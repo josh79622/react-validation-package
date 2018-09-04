@@ -1,13 +1,14 @@
 {
   "name": "react-validation-package",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ext .jsx --ext .js .",
     "lint-fix": "eslint --fix --ext .jsx --ext .js .",
-    "build": "babel src --out-dir lib"
+    "build": "babel src --out-dir lib",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",

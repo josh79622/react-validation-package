@@ -1,3 +1,4 @@
+import React from 'react'
 import animateScrollTo from 'animated-scroll-to'
 import ValidationType from './ValidationType'
 import ValidationAlert from './ValidationAlert'
